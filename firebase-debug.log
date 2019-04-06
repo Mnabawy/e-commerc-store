@@ -1,0 +1,30 @@
+[debug] [2019-04-06T14:30:44.646Z] ----------------------------------------------------------------------
+[debug] [2019-04-06T14:30:44.650Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\mo nabawy\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only hosting:fish-store
+[debug] [2019-04-06T14:30:44.650Z] CLI Version:   6.5.0
+[debug] [2019-04-06T14:30:44.650Z] Platform:      win32
+[debug] [2019-04-06T14:30:44.650Z] Node Version:  v11.5.0
+[debug] [2019-04-06T14:30:44.653Z] Time:          Sat Apr 06 2019 16:30:44 GMT+0200 (Eastern European Standard Time)
+[debug] [2019-04-06T14:30:44.653Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-06T14:30:44.671Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-06T14:30:44.672Z] > authorizing via signed-in user
+[debug] [2019-04-06T14:30:44.672Z] [iam] checking project fish-store-986ea for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-04-06T14:30:44.675Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/fish-store-986ea:testIamPermissions  
+
+[debug] [2019-04-06T14:30:45.930Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-06T14:30:45.933Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/fish-store-986ea  
+ 
+[debug] [2019-04-06T14:30:46.708Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'fish-store-986ea'...
+[info] 
+[info] i  deploying hosting
+[info] 
+[info] +  Deploy complete!
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/fish-store-986ea/overview
+[debug] [2019-04-06T14:30:48.584Z] TypeError: Cannot read property 'deploys' of undefined
+    at C:\Users\mo nabawy\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:88:36
+    at process.internalTickCallback (internal/process/next_tick.js:77:7)
+[error] 
+[error] Error: An unexpected error has occurred.

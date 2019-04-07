@@ -109,9 +109,7 @@ class Inventory extends React.Component {
     const logout = <button onClick={this.logout}>Log Out!</button>;
 
     // check if they are no logged in at all
-    if(!this.state.uid) {
-      return <div>{this.renderLogin()}</div>
-    }
+  
 
     // Check if they are the owner of the current store
     if(this.state.uid !== this.state.owner) {

@@ -1,6 +1,7 @@
 import React from 'react';
 import { formatPrice } from '../helpers';
 var ReactCSSTransitionGroup = require('react-addons-css-transition-group');
+
 class Order extends React.Component {
   constructor() {
     super();

@@ -109,22 +109,17 @@ class Inventory extends React.Component {
     const logout = <button onClick={this.logout}>Log Out!</button>;
 
     // check if they are no logged in at all
-  
+    
+    
+    
 
     // Check if they are the owner of the current store
-    if(this.state.uid !== this.state.owner) {
-      return (
-        <div>
-          <p>Sorry you aren't the owner of this store!</p>
-          {logout}
-        </div>
-      )
-    }
+   
 
     return (
       <div>
         <h2>Inventory</h2>
-        {logout}
+     
         {Object.keys(this.props.fishes).map(this.renderInventory)}
         <AddFishForm addFish={this.props.addFish}/>
         <button onClick={this.props.loadSamples}>Load Sample Fishes</button>
